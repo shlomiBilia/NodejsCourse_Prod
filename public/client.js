@@ -1,7 +1,7 @@
 let ws;
 
 function connectWebSocket(){
-    ws = new WebSocket('ws://localhost:3000');
+    ws = new WebSocket('wss://nodejscourse-prod-5hv7.onrender.com/');
 
 // event
  ws.onopen = () => {
